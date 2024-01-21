@@ -12,9 +12,9 @@ name: Create and publish a Docker image
 on:
   push:
     paths:
-      - '/pihole-unbound/Dockerfile'
-      - '/.github/workflows/docker-publish.yml'
-      - '/pihole-unbound/unbound-pihole.conf'
+      - 'Dockerfile'
+      - '.github/workflows/docker-publish.yml'
+      - 'pihole-unbound/unbound-pihole.conf'
 
 env:
   REGISTRY: ghcr.io
